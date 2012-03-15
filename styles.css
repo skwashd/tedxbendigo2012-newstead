@@ -97,8 +97,6 @@ body {
 }
 
 .slides.template-default > article:not(.nobackground):not(.biglogo) {
-  background: url(images/dhc-logo.png) 710px 625px no-repeat;  
-  
   background-color: white;  
 } 
 
@@ -597,4 +595,10 @@ article.smaller q::after {
 .prettyprint .dec, 
 .prettyprint .var { /* a declaration; a variable name */
   color: rgb(127, 0, 127);
-}  
+}
+
+#question {
+  font-size: 300px;
+  padding-top: 200px;
+  text-align: center;
+}
